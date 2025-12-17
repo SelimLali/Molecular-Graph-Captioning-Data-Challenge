@@ -1,0 +1,32 @@
+# Core
+torch==2.8.0
+torch-geometric>=2.3.0
+pandas>=1.5.0
+transformers>=4.30.0
+tqdm>=4.65.0
+rdkit>=2023.3.1
+nltk>=3.8.0
+
+# Dev / notebooks
+jupyterlab
+ipykernel
+ipywidgets
+matplotlib
+seaborn
+scikit-learn
+rich
+pyyaml
+
+# NLP / eval / training utils
+datasets
+evaluate
+accelerate
+sentencepiece
+sacrebleu
+rouge-score
+bert-score
+
+# HPO / tracking
+optuna
+wandb
+tensorboard
