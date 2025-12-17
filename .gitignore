@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environnements
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+# Logs / outputs
+*.log
+
+# (Optionnel) si tes plots sont regenerables et/ou trop lourds :
+# 1. plots_Retrieval_models/
+# 2. plots_generation_models/
+
+# (Optionnel) si tu as des données lourdes dans 0. data_baseline :
+0. data_baseline/data/
+1. Retrieval_model_V3/data/
+1. Retrieval_model_V3/retrieval_v3_best.pt
+2. Graph2TextGeneration_model_V1.1/data/
+2. Graph2TextGeneration_model_V1.1/g2t_v1_1_best.pt
+3. old_trials_attempts
